@@ -43,3 +43,17 @@ header.top {
         border-radius: 50%;
     }
 }
+
+@media(width <= 430px) {
+    header.top {
+        max-width: 26.875rem;
+        padding-block: 0.75;
+        padding-inline: 1.5rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: auto;
+    }
+}
+

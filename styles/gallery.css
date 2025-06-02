@@ -110,3 +110,21 @@ section.gallery {
         transform: translateY(100%);
     }
 }
+
+@media(width <= 430px) {
+
+    section.gallery{
+
+        & header h2 {
+            font-size: 2rem;
+        }
+
+       & .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-inline: auto;
+       }
+    }
+}

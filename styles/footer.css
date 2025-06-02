@@ -100,3 +100,30 @@ footer {
         }
     }
 }
+
+@media(width <= 430px) {
+
+    footer {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-inline: auto;
+
+        & nav {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        & .social-links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
